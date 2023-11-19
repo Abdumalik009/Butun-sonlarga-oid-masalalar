@@ -1,1 +1,17 @@
+public class Integer1 {
+    public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Uzunlikni santimetrda kiriting : ");
+        int L = scanner.nextInt();
+
+
+        int metr = L / 100;
+
+
+        System.out.println("Toliq metrlar soni: " + metr + " metr");
+
+
+    }
+}
