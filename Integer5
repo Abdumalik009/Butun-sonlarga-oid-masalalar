@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class EasyAlgoritm2 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("A kesmani kiriting: ");
+        int Kesma = scanner.nextInt();
+
+        System.out.print("B kesmani kiriting: ");
+        int Kesma2 = scanner.nextInt();
+
+
+        int k = Kesma / Kesma2;
+        int s = Kesma % Kesma2;
+
+        System.out.println("Shuncha marta yotadi: " + k);
+        System.out.println("Egallangan joy :  " + s);
+
+
+    }
+}
