@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EasyAlgoritm2 {
+public class Integer5 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
