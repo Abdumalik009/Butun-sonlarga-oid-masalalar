@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Integer7 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("2 xonali sonni kiriting: ");
+        int son = scanner.nextInt();
+
+        int bir = son % 10;
+        int onlik = son / 10;
+
+        int u = bir + onlik;
+
+
+        System.out.println("Raqamlar yigindisi: " + u); ;
+
+
+    }
+}
