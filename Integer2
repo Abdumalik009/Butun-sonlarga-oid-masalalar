@@ -1,0 +1,17 @@
+public class Integer2 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Kg kiriting : ");
+        int L = scanner.nextInt();
+
+
+        int metr = L / 1000;
+
+
+        System.out.println("Kg " + metr + " tonna");
+
+
+    }
+}
