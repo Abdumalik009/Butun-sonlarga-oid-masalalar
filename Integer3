@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Integer3 {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Fayl hajmini baytlarda kiriting: ");
+        int faylHajmiBayt = scanner.nextInt();
+
+
+        int faylHajmiKB = faylHajmiBayt / 1024;
+
+        System.out.println("Fayl hajmi: " + faylHajmiKB + " KB");
+
+
+    }
+}
