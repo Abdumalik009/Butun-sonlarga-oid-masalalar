@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Integer17 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("999 dan katta bo'lgan son kriting: ");
+        int son = scanner.nextInt();
+
+        int butun = son / 1000;
+        int qoldiq = son % 10;
+
+        System.out.println("Sonning butun  raqami: " + butun);
+        System.out.println("Sonning  qoldiq raqami: " + qoldiq);
+    }
+}
