@@ -18,7 +18,7 @@ public class Integer15 {
 
 
 
-        System.out.println("O'nliklar va birliklarni almashgan holdagi hosil bo'lgan misol: " + birlar + onlar + yuzlar);
+        System.out.println("O'nliklar va birliklarni almashgan holdagi hosil bo'lgan misol: " + onlar + yuzlar + birlar);
 
 
 
