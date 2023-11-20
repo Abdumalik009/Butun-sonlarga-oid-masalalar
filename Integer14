@@ -18,7 +18,7 @@ public class Integer14 {
 
 
 
-        System.out.println("O'ngdan birinchi raqamini o'chirib chap tarafiga yozishdan hosil bo'lgan son: " + yuzlar + onlar + birlar);
+        System.out.println("O'ngdan birinchi raqamini o'chirib chap tarafiga yozishdan hosil bo'lgan son: " + yuzlar + birlar + onlar);
 
 
 
