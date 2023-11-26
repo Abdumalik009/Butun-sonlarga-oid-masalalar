@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Integer20 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Kun boshidan o'tgan vaqtni kriting sekunda:  ");
+        int son = scanner.nextInt();
+
+        int m = son/3600;
+
+
+        System.out.println("Kun boshidan shuncha " + m +" soat utgan");
+
+    }
+}
