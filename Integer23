@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Integer23 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Kun boshidan o'tgan vaqtni kriting sekunda:  ");
+        int son = scanner.nextInt();
+
+        int m1 = son/3600;
+        int m = (son%3600) / 60;
+        int s =son%60;
+
+
+
+        System.out.println("Kun boshidan " + m1 +" soat "+ m + " minut va "+s+" sekund o'tgan");
+
+
+    }
+}
