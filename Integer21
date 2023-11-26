@@ -7,10 +7,10 @@ public class Integer21 {
         int son = scanner.nextInt();
 
         int m = son/60;
+        int s = son-(m*60);
 
 
-        System.out.println("Kun boshidan shuncha " + m +" minut o'tgan");
-        System.out.println("Kun boshidan shuncha " + son +" sekund o'tgan");
+        System.out.println("Kun boshidan " + m +" minut va "+ s + " sekund o'tgan");
 
     }
 }
