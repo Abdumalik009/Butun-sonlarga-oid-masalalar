@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Integer30 {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Iltimos, yilni kiriting: ");
+        int yil = scanner.nextInt();
+
+        int yuzYil = yil / 100;
+        int qYil =(yil / 10)%10;
+        int bYil = yuzYil + 1;
+        if(0<=qYil && qYil<=3){
+            System.out.println(bYil + "-yuz yillikni boshi "+ yil);
+        } else if (4<=qYil && qYil<=7) {
+            System.out.println(bYil + "-yuz yillikni o'rtasi "+ yil);
+        }
+        else if (8<=qYil && qYil<=9) {
+            System.out.println(bYil + "-yuz yillikni oxiri "+ yil);
+        }else {
+            System.out.println("Bunaqa yil mavjud emas");
+        }
+
+
+
+
+    }
+}
