@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Integer25 {
+public class Integer25{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
 
         System.out.print("Sonni kiriting: ");
         int K = scanner.nextInt();
-
-
-        int y = (K + 4) % 7;
-
+        int y = (K-4) % 7;
+        if ( K <= 3){
+            y = K +3;
+        }
 
         String kunNom = " ";
         switch (y) {
