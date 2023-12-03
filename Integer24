@@ -7,10 +7,10 @@ public class Integer24 {
 
         System.out.print("Sonni kiriting: ");
         int K = scanner.nextInt();
-
-
-        int y = (K + 1) % 7;
-
+        int y = (K) % 7;
+        if ( K <= 6){
+            y = K;
+        }
 
         String kunNom = " ";
         switch (y) {
